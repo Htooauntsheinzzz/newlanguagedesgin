@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: light;
+  --font-heading: "Avenir Next", "Trebuchet MS", "Segoe UI", sans-serif;
+  --font-mono: "Consolas", "Liberation Mono", "Courier New", monospace;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: var(--font-heading), "Segoe UI", sans-serif;
+  color: #0f172a;
+}
+
+code,
+pre,
+.font-mono {
+  font-family: var(--font-mono), "Menlo", monospace;
+}
